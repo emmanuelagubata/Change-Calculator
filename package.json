@@ -7,7 +7,8 @@
     "license": "mit",
     "scripts": {
         "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
-        "test": "mocha --exit"
+        "test": "mocha --exit",
+        "run": "nodemon server/main.js"
     },
     "devDependencies": {
         "axios": "^0.16.2",
@@ -16,5 +17,8 @@
         "mocha": "^5.2.0",
         "nightmare": "^3.0.1",
         "node-static": "^0.7.9"
+    },
+    "dependencies": {
+        "nodemon": "^1.19.1"
     }
 }

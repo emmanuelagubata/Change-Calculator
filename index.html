@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Change Calculator</title>
-  </head>
+  <meta charset="utf-8">
+  <title>Change Calculator</title>
+  
+    <!-- Don't forget to add your <script> tag here -->
+    <script src="main.js" charset="utf-8"></script>
+</head>
+  
   <body>
     <!-- Write your markup here -->
+    <h1>Change Calculator</h1>
 
-    <!-- Don't forget to add your <script> tag here -->
+    <div>
 
-  </body>
+  <input id="amount-due" type="number">How much does it cost?</input>
+  <p></p>
+  <input id="amount-received" type="number">How much has the customer given you?</input>
+  <p></p>
+  
+  <p>
+    
+  </p><button id="calculate-change" onclick=calculateChange()>Calculate Change</button>
+</div>
+<br>
+<div>
+  <p id="output"></p>
+  <p id="dollars-output">Dollars:</p>
+  <p id="quarters-output">Quarters:</p>
+  <p id="dimes-output">Dimes:</p>
+  <p id="nickels-output">Nickels:</p>
+  <p id="pennies-output">Pennies:</p>
+  <p id="total">Total:</p>
+</div>
+
+</body>
+
 </html>
